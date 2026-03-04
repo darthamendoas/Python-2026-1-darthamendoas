@@ -1,0 +1,20 @@
+val=float(input("Diga um valor:"))
+cem=val/100
+val=val%100
+cinq=val/50
+val=val%50
+vin=val/20
+val=val%20
+dez=val/10
+val=val%10
+cin=val/5
+val=val%5
+dois=val/2
+val=val%2
+print(cem)
+print(cinq)
+print(vin)
+print(dez)
+print(cin)
+print(dois)
+print(val)
