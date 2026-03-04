@@ -1,4 +1,4 @@
-val=float(input("Diga um valor:"))
+val=int(input("Diga um valor:"))
 cem=val/100
 val=val%100
 cinq=val/50
@@ -13,11 +13,11 @@ dois=val/2
 val=val%2
 um=val/1
 val=val%1
-print(cem)
-print(cinq)
-print(vin)
-print(dez)
-print(cin)
-print(dois)
-print(um)
-print(val)
+print(int(cem))
+print(int(cinq))
+print(int(vin))
+print(int(dez))
+print(int(cin))
+print(int(dois))
+print(int(um))
+print(int(val))
