@@ -1,17 +1,17 @@
 val=int(input("Diga um valor:"))
-cem=val/100
+cem=val//100
 val=val%100
-cinq=val/50
+cinq=val//50
 val=val%50
-vin=val/20
+vin=val//20
 val=val%20
-dez=val/10
+dez=val//10
 val=val%10
-cin=val/5
+cin=val//5
 val=val%5
-dois=val/2
+dois=val//2
 val=val%2
-um=val/1
+um=val//1
 val=val%1
 print(int(cem))
 print(int(cinq))
