@@ -11,10 +11,13 @@ cin=val/5
 val=val%5
 dois=val/2
 val=val%2
+um=val/1
+val=val%1
 print(cem)
 print(cinq)
 print(vin)
 print(dez)
 print(cin)
 print(dois)
+print(um)
 print(val)
